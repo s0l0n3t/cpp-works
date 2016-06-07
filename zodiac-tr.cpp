@@ -12,11 +12,11 @@ int main(){
 	start:
 	system("cls");
 	cout << "\t\t\n\n"
-			"  Burcunuza ait özellikleri gösterir.\n\n"
-			"         Ne zaman doðdun ? \n\n\t\tAy: ";
+			"  Burcunuza ait Ã¶zellikleri gÃ¶sterir.\n\n"
+			"         Ne zaman doÄŸdun ? \n\n\t\tAy: ";
 	cin >> month;
 	
-	cout << "\n\n\t\t" << "Gün: ";
+	cout << "\n\n\t\t" << "GÃ¼n: ";
 		
 	
 	cin >> date;
@@ -24,9 +24,9 @@ int main(){
 	system("cls");
 		if (month == 3 && date >= 21 || month == 4 && date <= 20 ){
 			
-			cout << "\t\tKoç Burcusunuz";
+			cout << "\t\tKoÃ§ Burcusunuz";
 			cout << endl;
-			cout << "\n\n\t\t\tÖzellikler :";
+			cout << "\n\n\t\t\tÃ–zellikler :";
 			cout << endl;
 			cout << "Burcunuzun cinsiyeti : Erkek";
 			cout << endl;
@@ -36,63 +36,63 @@ int main(){
 			cout << endl;
 			cout << "Burcunuzun yetenekleri : Canlilik ve hareket";
 			cout << endl;
-			cout << "Amacýnýz : Baþarý ve zafer ";
+			cout << "AmacÄ±nÄ±z : BaÅŸarÄ± ve zafer ";
 			cout << endl;
-			cout << "Yenmeniz gereken huyunuz : Sabýrsýzlýk ";
+			cout << "Yenmeniz gereken huyunuz : SabÄ±rsÄ±zlÄ±k ";
 			cout << endl;
 			}
 	else if ( month == 4 && date >= 21 || month == 5 && date <= 21 ){
 	
-			cout << "\t\tBoða burcusunuz";
+			cout << "\t\tBoÃ°a burcusunuz";
 			cout << endl;
-			cout << "\n\n\t\t\tÖzellikler :";
+			cout << "\n\n\t\t\tÃ–zellikler :";
 			cout << endl;
-			cout << "Burcunuzun cinsiyeti : Diþi";
+			cout << "Burcunuzun cinsiyeti : DiÃ¾i";
 			cout << endl;
-			cout << "Burcunuzun gezegeni : Venüs ";
+			cout << "Burcunuzun gezegeni : VenÃ¼s ";
 			cout << endl;
 			cout << "Grup : Toprak,negatif";
 			cout << endl;
-			cout << "Burcunuzun yetenekleri : Sýcakkanlý olmak ve istediðini bilmek";
+			cout << "Burcunuzun yetenekleri : SÃ½cakkanlÃ½ olmak ve istediÃ°ini bilmek";
 			cout << endl;
-			cout << "Amacýnýz : Mal, mülk, lüks ve büyük servet sahibi olmak";
+			cout << "AmacÃ½nÃ½z : Mal, mÃ¼lk, lÃ¼ks ve bÃ¼yÃ¼k servet sahibi olmak";
 			cout << endl;
-			cout << "Yenmeniz gereken huyunuz : Alýnganlýk, küsmek, lüks özlemi ve bencillik";
+			cout << "Yenmeniz gereken huyunuz : AlÃ½nganlÃ½k, kÃ¼smek, lÃ¼ks Ã¶zlemi ve bencillik";
 			cout << endl;
 			}
 	else if ( month == 5 && date >= 22 || month == 6 && date <= 22 ){
 		
-		cout << "\t\tÝkizler burcusunuz";
+		cout << "\t\tÃkizler burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
 		cout << "Burcunuzun cinsiyeti : Erkek";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Merkür";
+		cout << "Burcunuzun gezegeni : MerkÃ¼r";
 		cout << endl;
 		cout << "Grup : Hava, pozitif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Üstün zeka";
+		cout << "Burcunuzun yetenekleri : ÃœstÃ¼n zeka";
 		cout << endl;
-		cout << "Amacýnýz : Baþarý ve zafer";
+		cout << "AmacÃ½nÃ½z : BaÃ¾arÃ½ ve zafer";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Çok konuþmak";
+		cout << "Yenmeniz gereken huyunuz : Ã‡ok konuÃ¾mak";
 		cout << endl;
 		}
 	else if  ( month == 6 && date >= 23 || month == 7 && date <= 22 ){
-		cout << "\t\tYengeç burcusunuz";
+		cout << "\t\tYengeÃ§ burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
-		cout << "Burcunuzun cinsiyeti : Diþi";
+		cout << "Burcunuzun cinsiyeti : DiÃ¾i";
 		cout << endl;
 		cout << "Burcunuzun gezegeni : Ay";
 		cout << endl;
 		cout << "Grup : Su,negatif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Sabýrlý olmak";
+		cout << "Burcunuzun yetenekleri : SabÃ½rlÃ½ olmak";
 		cout << endl;
-		cout << "Amacýnýz : Daima yükselmek";
+		cout << "AmacÃ½nÃ½z : Daima yÃ¼kselmek";
 		cout << endl;
 		cout << "Yenmeniz gereken huyunuz : Dikkatsizlik";
 		cout << endl;
@@ -100,27 +100,27 @@ int main(){
 	else if ( month == 7 && date >= 23 || month == 8 && date <= 22 ){
 		cout << "\t\tAslan burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
 		cout << "Burcunuzun cinsiyeti : Erkek";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Güneþ";
+		cout << "Burcunuzun gezegeni : GÃ¼neÃ¾";
 		cout << endl;
-		cout << "Grup : Ateþ, pozitif";
+		cout << "Grup : AteÃ¾, pozitif";
 		cout << endl;
 		cout << "Burcunuzun yetenekleri : Plan kurma";
 		cout << endl;
-		cout << "Amacýnýz : Çok þeye kavuþmak";
+		cout << "AmacÃ½nÃ½z : Ã‡ok Ã¾eye kavuÃ¾mak";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Kendini beðenmek";
+		cout << "Yenmeniz gereken huyunuz : Kendini beÃ°enmek";
 		cout << endl;
 		}
 	else if ( month == 8 && date >= 23 || month == 9 && date <= 22 ){
-		cout << "\t\tBaþak burcusunuz";
+		cout << "\t\tBaÃ¾ak burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
-		cout << "Burcunuzun cinsiyeti : Diþi";
+		cout << "Burcunuzun cinsiyeti : DiÃ¾i";
 		cout << endl;
 		cout << "Burcunuzun gezegeni : Mars ";
 		cout << endl;
@@ -128,35 +128,35 @@ int main(){
 		cout << endl;
 		cout << "Burcunuzun yetenekleri : Disiplinli ve metodlu bir hayat";
 		cout << endl;
-		cout << "Amacýnýz : Baþarý yolunda daima yükselmek";
+		cout << "AmacÃ½nÃ½z : BaÃ¾arÃ½ yolunda daima yÃ¼kselmek";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Çekingenlik ve cesaretsizlik";
+		cout << "Yenmeniz gereken huyunuz : Ã‡ekingenlik ve cesaretsizlik";
 		cout << endl;
 		}
 	else if ( month == 9 && date >= 23 || month == 10 && date <= 22 ){
 		cout << "\t\tTerazi burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
 		cout << "Burcunuzun cinsiyeti : Erkek";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Venüs";
+		cout << "Burcunuzun gezegeni : VenÃ¼s";
 		cout << endl;
 		cout << "Grup : Hava, negatif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Dengeli ve ölçülü olmak";
+		cout << "Burcunuzun yetenekleri : Dengeli ve Ã¶lÃ§Ã¼lÃ¼ olmak";
 		cout << endl;
-		cout << "Amacýnýz : Zengin olmak, düzenli bir hayat";
+		cout << "AmacÃ½nÃ½z : Zengin olmak, dÃ¼zenli bir hayat";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Gösteriþten hoþlanmak";
+		cout << "Yenmeniz gereken huyunuz : GÃ¶steriÃ¾ten hoÃ¾lanmak";
 		cout << endl;
 		}
 	else if ( month == 10 && date >= 23 || month == 11 && date <= 21 ){
 		cout << "\t\tAkrep burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
-		cout << "Burcunuzun cinsiyeti : Diþi";
+		cout << "Burcunuzun cinsiyeti : DiÃ¾i";
 		cout << endl;
 		cout << "Burcunuzun gezegeni : Mars ve Pluton";
 		cout << endl;
@@ -164,92 +164,92 @@ int main(){
 		cout << endl;
 		cout << "Burcunuzun yetenekleri : Sezgi";
 		cout << endl;
-		cout << "Amacýnýz : Hayat boyu zenginlik";
+		cout << "AmacÃ½nÃ½z : Hayat boyu zenginlik";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Acýmamak, ihmal etmek";
+		cout << "Yenmeniz gereken huyunuz : AcÃ½mamak, ihmal etmek";
 		cout << endl;
 		}
 	else if ( month == 11 && date >= 22 || month == 12 && date <= 21 ){
 		cout << "\t\tYay burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
 		cout << "Burcunuzun cinsiyeti : Erkek";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Jüpiter";
+		cout << "Burcunuzun gezegeni : JÃ¼piter";
 		cout << endl;
-		cout << "Grup : Ateþ, pozitif";
+		cout << "Grup : AteÃ¾, pozitif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Kendine güven";
+		cout << "Burcunuzun yetenekleri : Kendine gÃ¼ven";
 		cout << endl;
-		cout << "Amacýnýz : Çok gezip görmek, çok seye kavuþmak";
+		cout << "AmacÃ½nÃ½z : Ã‡ok gezip gÃ¶rmek, Ã§ok seye kavuÃ¾mak";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Baþkalarýný küçümsemek";
+		cout << "Yenmeniz gereken huyunuz : BaÃ¾kalarÃ½nÃ½ kÃ¼Ã§Ã¼msemek";
 		cout << endl;
 		}
 	else if ( month == 12 && date >= 22 || month == 1 && date <= 21 ){
-		cout << "\t\tOðlak burcusunuz";
+		cout << "\t\tOÃ°lak burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
-		cout << "Burcunuzun cinsiyeti : Diþi";
+		cout << "Burcunuzun cinsiyeti : DiÃ¾i";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Satürn";
+		cout << "Burcunuzun gezegeni : SatÃ¼rn";
 		cout << endl;
 		cout << "Grup : Toprak, negatif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Karar ve direniþ";
+		cout << "Burcunuzun yetenekleri : Karar ve direniÃ¾";
 		cout << endl;
-		cout << "Amacýnýz : Yükseðe ulaþýp baþta kalmak";
+		cout << "AmacÃ½nÃ½z : YÃ¼kseÃ°e ulaÃ¾Ã½p baÃ¾ta kalmak";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Fazla meraklýlýk";
+		cout << "Yenmeniz gereken huyunuz : Fazla meraklÃ½lÃ½k";
 		cout << endl;
 		}
 	else if ( month == 1 && date >= 22 || month == 2 && date <= 19 ){
 		cout << "\t\tKova burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
 		cout << "Burcunuzun cinsiyeti : Erkek";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Uranüs";
+		cout << "Burcunuzun gezegeni : UranÃ¼s";
 		cout << endl;
 		cout << "Grup : Hava, pozitif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Saðduyu";
+		cout << "Burcunuzun yetenekleri : SaÃ°duyu";
 		cout << endl;
-		cout << "Amacýnýz : Yükselmek, baþkalarýna yardým etmek";
+		cout << "AmacÃ½nÃ½z : YÃ¼kselmek, baÃ¾kalarÃ½na yardÃ½m etmek";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Ýhmalcilik ve paraya deðer vermemek";
+		cout << "Yenmeniz gereken huyunuz : Ãhmalcilik ve paraya deÃ°er vermemek";
 		cout << endl;
 		}
 	else if ( month == 2 && date >= 20 || month == 3 && date <= 20 ){
-		cout << "\t\tBalýk burcusunuz";
+		cout << "\t\tBalÃ½k burcusunuz";
 		cout << endl;
-		cout << "\n\n\t\t\tÖzellikler :";
+		cout << "\n\n\t\t\tÃ–zellikler :";
 		cout << endl;
-		cout << "Burcunuzun cinsiyeti : Diþi";
+		cout << "Burcunuzun cinsiyeti : DiÃ¾i";
 		cout << endl;
-		cout << "Burcunuzun gezegeni : Neptün";
+		cout << "Burcunuzun gezegeni : NeptÃ¼n";
 		cout << endl;
 		cout << "Grup : Su, negatif";
 		cout << endl;
-		cout << "Burcunuzun yetenekleri : Baþkalarýna karþý ilgi, þefkat";
+		cout << "Burcunuzun yetenekleri : BaÃ¾kalarÃ½na karÃ¾Ã½ ilgi, Ã¾efkat";
 		cout << endl;
-		cout << "Amacýnýz : Servete ve mutluluða ulaþmak";
+		cout << "AmacÃ½nÃ½z : Servete ve mutluluÃ°a ulaÃ¾mak";
 		cout << endl;
-		cout << "Yenmeniz gereken huyunuz : Kendi deðerinizi küçümsemek";
+		cout << "Yenmeniz gereken huyunuz : Kendi deÃ°erinizi kÃ¼Ã§Ã¼msemek";
 		cout << endl;
 		}
 		else{
 			
-			cout << "Ýncorrect input please try again ...";		
+			cout << "Ãncorrect input please try again ...";		
 			system("PAUSE");
 			system("cls");
 			goto start;
 			}					
-			cout << "Tekrar denemek için 1 "
-				"yada çýkmak için 2 tuþlayýnýz\n";
+			cout << "Tekrar denemek iÃ§in 1 "
+				"yada Ã§Ã½kmak iÃ§in 2 tuÃ¾layÃ½nÃ½z\n";
 		cin >> press;
 		if (press == 1){
 		goto start;
