@@ -2,9 +2,7 @@
 
   İf you wanna use;
   
-  Open your terminal because python2.7 is using with console.
-  and go your directory. 
-  write python2 [file name].py
+  ./[modulename]
 
   have good days :)
                       
