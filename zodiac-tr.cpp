@@ -243,7 +243,7 @@ int main(){
 		}
 		else{
 			
-			cout << "İncorrect input please try again ...";		
+			cout << "Giriş eşleşmedi lütfen tekrar deneyiniz ...";		
 			system("PAUSE");
 			system("cls");
 			goto start;
