@@ -2,21 +2,18 @@
 #include <windows.h>
 using namespace std;
 
-//  Bu bir timer'dýr.
-
+//Time is most important thing.
 main(void){
 int sec=0;
 int min=0;
 int hour=0;
 int dakik=0;
 int sihhat=0;
-
 sourcetime:
 cout << "Saat :";
 cin >> dakik;
 cout << "\nDakika :";
 cin >> sihhat;
-
 second:
 for (int a=0;a<60; ++a){
 	Sleep(1000);
