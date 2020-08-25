@@ -2,7 +2,7 @@
 #include <windows.h>
 using namespace std;
 
-//  Bu bir timer'dýr.
+//  Bu bir timer'dÃ½r.
 
 main(void){
 int sec=0;
@@ -17,8 +17,6 @@ cin >> dakik;
 cout << "\nDakika :";
 cin >> sihhat;
 
-
-
 second:
 for (int a=0;a<60; ++a){
 	Sleep(1000);
@@ -29,13 +27,11 @@ for (int a=0;a<60; ++a){
 if (sec == 59){
 	sec = 0;
 	min++;
-	goto second;
-}
+	goto second;}
 if (min == 59){
 	min = 0;
 	hour++;
-	goto second;
-}
+	goto second;}
 if (hour == dakik && min == sihhat){
 	for (int b =0;b < 10;b++){
 	cout << "\t\t" << "\nALARM !!";
@@ -45,15 +41,4 @@ if (hour == dakik && min == sihhat){
 	min = 0;
 	hour = 0;
 	system("Cls");
-	goto sourcetime;
-}
-}
-
-
-
-	}
-	}
-
- 
-
-
+	goto sourcetime;}}}}
