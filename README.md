@@ -16,4 +16,4 @@
 
 ##### *Use everytime linux for os systems.*
 
-@s0l0n3t 🥱: This PR looks bored
+@s0l0n3t 🥱: This PR looks bored.
