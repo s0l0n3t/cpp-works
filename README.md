@@ -16,4 +16,4 @@
 
 ##### *Use everytime linux for os systems.*
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+@s0l0n3t 🥱: This PR looks bored
