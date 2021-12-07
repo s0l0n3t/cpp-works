@@ -1,14 +1,19 @@
-# module-Cpp
+<h1 align="center">Modules on Cpp</h1>
 
-  İf you wanna use;
+## If you wanna use:
   
-  ./[modulename]
+ - [x] ./[modulename]
+<br>
 
-  have good days :)
-                      
 
-İRC
-  server: irc.2600.net
-  roomid: #1102             
 
-# Use everytime linux for os systems.
+
+
+
+## IRC
+  - **Server:** irc.2600.net
+    - **Roomid:** #1102             
+
+##### *Use everytime linux for os systems.*
+
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
